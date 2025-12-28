@@ -14,7 +14,7 @@ export default function CareersPage() {
             Join Our <span className="gradient-text">Team</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the future of AI automation. Join us and make an impact.
+            We&apos;re building the future of AI automation. Join us and make an impact.
           </p>
         </div>
       </section>
@@ -23,7 +23,7 @@ export default function CareersPage() {
         <div className="container-custom max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-lg text-gray-600">
-              We're currently hiring for multiple positions. Check back soon for open roles, or send us your resume at{' '}
+              We&apos;re currently hiring for multiple positions. Check back soon for open roles, or send us your resume at{' '}
               <a href="mailto:careers@smartomation.ai" className="text-primary-600 font-semibold hover:underline">
                 careers@smartomation.ai
               </a>
@@ -34,4 +34,5 @@ export default function CareersPage() {
     </div>
   )
 }
+
 

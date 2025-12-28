@@ -109,7 +109,7 @@ export default function IntegrationsGrid() {
             className="mt-16 text-center"
           >
             <p className="text-lg text-gray-600 mb-4">
-              Don't see your integration? We're adding new ones every week.
+              Don&apos;t see your integration? We&apos;re adding new ones every week.
             </p>
             <button className="btn-primary">Request an Integration</button>
           </motion.div>

@@ -54,7 +54,7 @@ export default function ChatbotWidget() {
             <div className="bg-primary-600 text-white p-4 flex items-center justify-between">
               <div>
                 <h3 className="font-semibold">Smartomation.ai Assistant</h3>
-                <p className="text-xs text-primary-100">We're here to help</p>
+                <p className="text-xs text-primary-100">We&apos;re here to help</p>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ export default function ChatbotWidget() {
                 </div>
                 <div className="bg-gray-100 rounded-lg p-3 max-w-[80%]">
                   <p className="text-sm text-gray-700">
-                    Hello! I'm your AI assistant. How can I help you today?
+                    Hello! I&apos;m your AI assistant. How can I help you today?
                   </p>
                 </div>
               </div>
@@ -91,4 +91,5 @@ export default function ChatbotWidget() {
     </>
   )
 }
+
 

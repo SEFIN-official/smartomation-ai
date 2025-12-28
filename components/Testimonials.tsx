@@ -69,7 +69,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               <div className="flex items-center">
                 <img
@@ -91,4 +91,5 @@ export default function Testimonials() {
     </section>
   )
 }
+
 

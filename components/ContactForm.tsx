@@ -18,7 +18,7 @@ export default function ContactForm() {
               Get in <span className="gradient-text">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have questions? We're here to help. Reach out to our team and we'll get back to you as soon as possible.
+              Have questions? We&apos;re here to help. Reach out to our team and we&apos;ll get back to you as soon as possible.
             </p>
           </motion.div>
         </div>
@@ -134,4 +134,5 @@ export default function ContactForm() {
     </div>
   )
 }
+
 

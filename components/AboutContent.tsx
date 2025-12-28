@@ -61,7 +61,7 @@ export default function AboutContent() {
               About <span className="gradient-text">Smartomation.ai</span>
             </h1>
             <p className="text-xl text-gray-600">
-              We're on a mission to democratize AI automation, making enterprise-grade AI agents accessible to businesses of all sizes.
+              We&apos;re on a mission to democratize AI automation, making enterprise-grade AI agents accessible to businesses of all sizes.
             </p>
           </motion.div>
         </div>
@@ -84,9 +84,9 @@ export default function AboutContent() {
                 queries across voice, chat, and email channels.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Founded in 2020, we've helped hundreds of enterprises transform their customer service operations, 
+                Founded in 2020, we&apos;ve helped hundreds of enterprises transform their customer service operations, 
                 reduce costs, and improve customer satisfaction. With a team of AI experts, engineers, and customer 
-                success professionals, we're committed to delivering the most advanced and user-friendly AI automation platform.
+                success professionals, we&apos;re committed to delivering the most advanced and user-friendly AI automation platform.
               </p>
             </motion.div>
           </div>
@@ -172,7 +172,7 @@ export default function AboutContent() {
               Join Us on Our Mission
             </h2>
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              We're always looking for talented individuals to join our team. Check out our open positions.
+              We&apos;re always looking for talented individuals to join our team. Check out our open positions.
             </p>
             <Link href="/careers" className="btn-secondary bg-white text-primary-600 hover:bg-gray-100">
               View Careers
@@ -183,4 +183,5 @@ export default function AboutContent() {
     </div>
   )
 }
+
 
