@@ -24,9 +24,9 @@ const values = [
 
 const team = [
   {
-    name: 'Alex Johnson',
+    name: 'Kumar Sundaresan',
     role: 'CEO & Co-founder',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
+    image: '/founder/kumar-sundaresan.avif',
   },
   {
     name: 'Sarah Chen',
@@ -146,11 +146,13 @@ export default function AboutContent() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="text-center"
               >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
+                <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden relative">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-gray-600">{member.role}</p>
               </motion.div>
